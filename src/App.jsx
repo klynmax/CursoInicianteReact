@@ -13,6 +13,7 @@ import tABELApRODUTOS from './components/repeticao/TabelaProdutos';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
+import DiretaPai from './components/comunicacao/DiretaPai'
 
 export default () => (
 
@@ -20,6 +21,9 @@ export default () => (
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card titulo="#09 - Comunicação Direta" color="#59323c">
+                <DiretaPai></DiretaPai>
+            </Card>
 
             <Card titulo="#08 - Redenrização Condicional" color="#982395">
                 <ParOuImpar numero={20}></ParOuImpar>
