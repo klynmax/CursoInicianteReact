@@ -12,6 +12,7 @@ import ListaAlunos from './components/repeticao/ListaAlunos';
 import tABELApRODUTOS from './components/repeticao/TabelaProdutos';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
+import UsuarioInfo from './components/condicional/UsuarioInfo';
 
 export default () => (
 
@@ -22,6 +23,7 @@ export default () => (
 
             <Card titulo="#08 - Redenrização Condicional" color="#982395">
                 <ParOuImpar numero={20}></ParOuImpar>
+                <UsuarioInfo usuario={{nome: 'Fernando'}} />
             </Card>
 
             <Card titulo="#07 - Desafio Repetição" color="#3A9AD9">
